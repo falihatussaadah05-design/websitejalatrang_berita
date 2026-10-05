@@ -10,7 +10,7 @@
    HALAMAN BERITA
 ========================================================= */
 
-.berita-page {
+    .berita-page {
     background: #ffffff;
     min-height: 100vh;
     padding-bottom: 70px;
@@ -21,7 +21,7 @@
    HERO / HEADER
 ========================================================= */
 
-.berita-header {
+    .berita-header {
     width: 100vw;
     margin-left: calc(50% - 50vw);
 
@@ -36,33 +36,33 @@
     color: white;
 }
 
-.berita-header-inner {
+    .berita-header-inner {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.berita-breadcrumb {
+    .berita-breadcrumb {
     display: flex;
     align-items: center;
     margin-bottom: 22px;
     font-size: 14px;
 }
 
-.berita-breadcrumb .beranda {
+    .berita-breadcrumb .beranda {
     color: #ffc400;
     font-weight: 600;
 }
 
-.berita-breadcrumb .slash {
+    .berita-breadcrumb .slash {
     color: rgba(255,255,255,.45);
     margin: 0 9px;
 }
 
-.berita-breadcrumb .berita {
+    .berita-breadcrumb .berita {
     color: #ffffff;
 }
 
-.berita-title {
+    .berita-title {
     margin: 0 0 9px;
     color: #ffffff;
     font-size: 38px;
@@ -70,7 +70,7 @@
     font-weight: 800;
 }
 
-.berita-subtitle {
+    .berita-subtitle {
     margin: 0;
     color: rgba(255,255,255,.78);
     font-size: 16px;
@@ -81,7 +81,7 @@
    KONTEN UTAMA
 ========================================================= */
 
-.berita-container {
+    .berita-container {
     width: 100%;
     max-width: 1450px;
 
@@ -95,11 +95,11 @@
     align-items: start;
 }
 
-.berita-container > .filter-box {
+    .berita-container > .filter-box {
     grid-column: 1;
 }
 
-.berita-container > .row {
+    .berita-container > .row {
     grid-column: 2;
     min-width: 0;
 }
@@ -109,7 +109,7 @@
    FILTER BERITA
 ========================================================= */
 
-.filter-box {
+    .filter-box {
     width: 100%;
     background: #ffffff;
 
@@ -122,7 +122,7 @@
     box-shadow: 0 3px 12px rgba(17,24,39,.07);
 }
 
-.filter-header {
+    .filter-header {
     background: #172033;
     color: #ffffff;
 
@@ -132,15 +132,15 @@
     font-weight: 700;
 }
 
-.filter-header i {
+    .filter-header i {
     color: #ffc400;
 }
 
-.filter-body {
+    .filter-body {
     padding: 20px;
 }
 
-.filter-body label {
+    .filter-body label {
     display: block;
 
     color: #374151;
@@ -150,8 +150,8 @@
     margin-bottom: 7px;
 }
 
-.filter-body .form-control,
-.filter-body .form-select {
+    .filter-body .form-control,
+    .filter-body .form-select {
     min-height: 42px;
 
     border: 1px solid #d9dee7;
@@ -163,8 +163,8 @@
     box-shadow: none;
 }
 
-.filter-body .form-control:focus,
-.filter-body .form-select:focus {
+    .filter-body .form-control:focus,
+    .filter-body .form-select:focus {
     border-color: #1e88e5;
 
     box-shadow:
@@ -176,7 +176,7 @@
    TOMBOL CARI
 ========================================================= */
 
-.btn-cari {
+    .btn-cari {
     min-height: 42px;
 
     background: #1e88e5;
@@ -189,7 +189,7 @@
     font-weight: 600;
 }
 
-.btn-cari:hover {
+    .btn-cari:hover {
     background: #1769aa;
     border-color: #1769aa;
     color: #ffffff;
@@ -200,7 +200,7 @@
    TOMBOL RESET
 ========================================================= */
 
-.btn-reset {
+    .btn-reset {
     min-height: 42px;
 
     background: #ffffff;
@@ -213,7 +213,7 @@
     font-weight: 500;
 }
 
-.btn-reset:hover {
+    .btn-reset:hover {
     background: #f3f4f6;
     color: #111827;
 }
@@ -223,7 +223,7 @@
    TOMBOL TAMBAH BERITA
 ========================================================= */
 
-.btn-tambah-berita {
+    .btn-tambah-berita {
     background: #2196F3;
 
     border: none;
@@ -238,12 +238,12 @@
     transition: 0.2s;
 }
 
-.btn-tambah-berita:hover {
+    .btn-tambah-berita:hover {
     background: #1976D2;
     color: white;
 }
 
-.btn-tambah-berita i {
+    .btn-tambah-berita i {
     margin-right: 6px;
 }
 
@@ -252,12 +252,12 @@
    GRID BERITA
 ========================================================= */
 
-.berita-grid {
+    .berita-grid {
     margin-left: -10px;
     margin-right: -10px;
 }
 
-.berita-column {
+    .berita-column {
     padding-left: 10px;
     padding-right: 10px;
 
@@ -269,7 +269,7 @@
    CARD BERITA
 ========================================================= */
 
-.card-berita {
+    .card-berita {
     width: 100%;
     height: 100%;
 
@@ -290,7 +290,7 @@
         box-shadow .2s ease;
 }
 
-.card-berita:hover {
+    .card-berita:hover {
     transform: translateY(-3px);
 
     box-shadow:
@@ -302,7 +302,7 @@
    GAMBAR
 ========================================================= */
 
-.card-berita .card-img-top {
+    .card-berita .card-img-top {
     width: 100%;
     height: 205px;
 
@@ -318,7 +318,7 @@
    BODY CARD
 ========================================================= */
 
-.card-berita .card-body {
+    .card-berita .card-body {
     padding: 17px;
 
     display: flex;
@@ -332,7 +332,7 @@
    KATEGORI + TANGGAL
 ========================================================= */
 
-.info-berita {
+    .info-berita {
     display: flex;
     align-items: center;
 
@@ -341,7 +341,7 @@
     margin-bottom: 10px;
 }
 
-.badge-kategori {
+    .badge-kategori {
     display: inline-block;
 
     background: #e8f2fd;
@@ -359,7 +359,7 @@
     white-space: nowrap;
 }
 
-.tanggal-berita {
+    .tanggal-berita {
     color: #8a929e;
 
     font-size: 11px;
@@ -367,7 +367,7 @@
     white-space: nowrap;
 }
 
-.tanggal-berita i {
+    .tanggal-berita i {
     margin-right: 3px;
 }
 
@@ -376,7 +376,7 @@
    JUDUL BERITA
 ========================================================= */
 
-.judul-berita {
+    .judul-berita {
     color: #20252d;
 
     font-size: 16px;
@@ -391,7 +391,7 @@
     transition: .2s ease;
 }
 
-.judul-berita:hover {
+    .judul-berita:hover {
     color: #1769aa;
 }
 
@@ -400,7 +400,7 @@
    ISI / RINGKASAN
 ========================================================= */
 
-.isi-berita {
+    .isi-berita {
     color: #6b7280;
 
     font-size: 12.5px;
@@ -417,13 +417,13 @@
    TAG
 ========================================================= */
 
-.tag-container {
+    .tag-container {
     min-height: 26px;
 
     margin-bottom: 12px;
 }
 
-.tag-pill {
+    .tag-pill {
     display: inline-block;
 
     background: #f8f9fa;
@@ -447,7 +447,7 @@
    FOOTER CARD
 ========================================================= */
 
-.card-footer-berita {
+    .card-footer-berita {
     margin-top: auto;
 
     padding-top: 11px;
@@ -462,7 +462,7 @@
     gap: 8px;
 }
 
-.jumlah-dilihat {
+    .jumlah-dilihat {
     color: #8a929e;
 
     font-size: 11px;
@@ -470,7 +470,7 @@
     white-space: nowrap;
 }
 
-.jumlah-dilihat i {
+    .jumlah-dilihat i {
     margin-right: 3px;
 }
 
@@ -479,7 +479,7 @@
    TOMBOL AKSI
 ========================================================= */
 
-.aksi-berita {
+    .aksi-berita {
     display: flex;
 
     align-items: center;
@@ -487,7 +487,7 @@
     gap: 5px;
 }
 
-.btn-aksi {
+    .btn-aksi {
     width: 30px;
     height: 30px;
 
@@ -503,31 +503,31 @@
     font-size: 12px;
 }
 
-.btn-edit {
+    .btn-edit {
     background: #ffc107;
     color: #212529;
 
     border: 1px solid #ffc107;
 }
 
-.btn-edit:hover {
+    .btn-edit:hover {
     background: #e0a800;
     color: #212529;
 }
 
-.btn-hapus {
+    .btn-hapus {
     background: #dc3545;
     color: #ffffff;
 
     border: 1px solid #dc3545;
 }
 
-.btn-hapus:hover {
+    .btn-hapus:hover {
     background: #bb2d3b;
     color: #ffffff;
 }
 
-.btn-baca {
+    .btn-baca {
     display: inline-flex;
 
     align-items: center;
@@ -553,7 +553,7 @@
     white-space: nowrap;
 }
 
-.btn-baca:hover {
+    .btn-baca:hover {
     background: #1769aa;
     color: #ffffff;
 }
@@ -563,7 +563,7 @@
    BERITA KOSONG
 ========================================================= */
 
-.berita-kosong {
+    .berita-kosong {
     padding: 60px 20px;
 
     text-align: center;
@@ -575,13 +575,13 @@
     border-radius: 8px;
 }
 
-.berita-kosong i {
+    .berita-kosong i {
     color: #1e88e5;
 
     font-size: 40px;
 }
 
-.berita-kosong p {
+    .berita-kosong p {
     color: #6b7280;
 
     margin: 12px 0 0;
@@ -594,7 +594,7 @@
    PAGINATION
 ========================================================= */
 
-.pagination-wrapper {
+    .pagination-wrapper {
     grid-column: 1 / -1 !important;
 
     width: 100% !important;
@@ -610,17 +610,17 @@
     align-items: center !important;
 }
 
-.pagination-wrapper nav {
+    .pagination-wrapper nav {
     width: auto !important;
 
     margin: 0 auto !important;
 }
 
-.pagination-wrapper nav > div.d-sm-none {
+    .pagination-wrapper nav > div.d-sm-none {
     display: none !important;
 }
 
-.pagination-wrapper nav > div.d-sm-flex {
+    .pagination-wrapper nav > div.d-sm-flex {
     display: flex !important;
 
     flex-direction: row !important;
@@ -634,7 +634,7 @@
     gap: 30px !important;
 }
 
-.pagination-wrapper nav > div.d-sm-flex > div:first-child {
+    .pagination-wrapper nav > div.d-sm-flex > div:first-child {
     width: auto !important;
 
     flex: none !important;
@@ -642,7 +642,7 @@
     margin: 0 !important;
 }
 
-.pagination-wrapper nav > div.d-sm-flex > div:last-child {
+    .pagination-wrapper nav > div.d-sm-flex > div:last-child {
     width: auto !important;
 
     flex: none !important;
@@ -650,11 +650,11 @@
     margin: 0 !important;
 }
 
-.pagination {
+    .pagination {
     margin-bottom: 0;
 }
 
-.pagination .page-link {
+    .pagination .page-link {
     color: #1769aa;
 
     border-color: #dfe4ea;
@@ -666,13 +666,13 @@
     text-align: center;
 }
 
-.pagination .page-link:hover {
+    .pagination .page-link:hover {
     background: #eef6fd;
 
     color: #1769aa;
 }
 
-.pagination .page-item.active .page-link {
+    .pagination .page-item.active .page-link {
     background: #1e88e5;
 
     border-color: #1e88e5;
@@ -755,11 +755,11 @@
    FILTER SIDEBAR - VERTIKAL
 ========================================================= */
 
-.filter-box {
+    .filter-box {
     width: 100% !important;
 }
 
-.filter-box .filter-body {
+    .filter-box .filter-body {
     width: 100% !important;
 
     padding: 25px !important;
@@ -767,13 +767,13 @@
     box-sizing: border-box !important;
 }
 
-.filter-box .filter-body form .row {
+    .filter-box .filter-body form .row {
     display: block !important;
 
     margin: 0 !important;
 }
 
-.filter-box .filter-body form .row > [class*="col-"] {
+    .filter-box .filter-body form .row > [class*="col-"] {
     width: 100% !important;
 
     max-width: 100% !important;
@@ -785,7 +785,7 @@
     margin-bottom: 20px !important;
 }
 
-.filter-box .filter-body .form-label {
+    .filter-box .filter-body .form-label {
     display: block !important;
 
     width: 100% !important;
@@ -793,8 +793,8 @@
     margin-bottom: 8px !important;
 }
 
-.filter-box .filter-body .form-control,
-.filter-box .filter-body .form-select {
+    .filter-box .filter-body .form-control,
+    .filter-box .filter-body .form-select {
     display: block !important;
 
     width: 100% !important;
@@ -806,9 +806,9 @@
     box-sizing: border-box !important;
 }
 
-.filter-box .filter-body .btn,
-.filter-box .filter-body button,
-.filter-box .filter-body a {
+    .filter-box .filter-body .btn,
+    .filter-box .filter-body button,
+    .filter-box .filter-body a {
     box-sizing: border-box !important;
 }
 
@@ -817,13 +817,13 @@
    TOMBOL FILTER
 ========================================================= */
 
-.filter-box .filter-body .d-flex,
-.filter-box .filter-body .d-grid {
+    .filter-box .filter-body .d-flex,
+    .filter-box .filter-body .d-grid {
     width: 100% !important;
 }
 
-.filter-box .filter-body .d-flex > *,
-.filter-box .filter-body .d-grid > * {
+    .filter-box .filter-body .d-flex > *,
+    .filter-box .filter-body .d-grid > * {
     width: 100% !important;
 
     margin-bottom: 10px !important;
