@@ -773,6 +773,25 @@
     margin-bottom: 10px !important;
 }
 
+.btn-tambah-berita {
+    background: #2196F3;
+    border: none;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.btn-tambah-berita:hover {
+    background: #1976D2;
+    color: white;
+}
+
+.btn-tambah-berita i {
+    margin-right: 6px;
+}
+
 </style>
 
 <div class="berita-page">
@@ -945,6 +964,13 @@
                 </div>
 
             </form>
+
+            <div class="mt-3">
+    <a href="{{ route('berita.create') }}" class="btn btn-tambah-berita w-100">
+        <i class="bi bi-plus-lg"></i>
+        Tambah Berita
+    </a>
+</div>
 
         </div>
 
