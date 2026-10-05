@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Berita;
 use Illuminate\Database\Seeder;
+use Carbon\Carbon;
 
 class DummyBeritaSeeder extends Seeder
 {

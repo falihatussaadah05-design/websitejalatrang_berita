@@ -10,18 +10,25 @@
 
         <div class="card card-berita">
 
+            {{-- HEADER --}}
             <div class="filter-header">
-                <i class="bi bi-plus-circle-fill me-1"></i> Tambah Berita
+                <i class="bi bi-plus-circle-fill me-1"></i>
+                Tambah Berita
             </div>
 
             <div class="card-body">
 
-                <form action="{{ route('berita.store') }}" method="POST" enctype="multipart/form-data">
+                <form
+                    action="{{ route('berita.store') }}"
+                    method="POST"
+                    enctype="multipart/form-data"
+                >
 
                     @csrf
 
                     {{-- JUDUL --}}
                     <div class="mb-3">
+
                         <label for="judul" class="form-label fw-semibold">
                             Judul
                         </label>
@@ -40,16 +47,22 @@
                                 {{ $message }}
                             </div>
                         @enderror
+
                     </div>
 
 
                     {{-- KATEGORI --}}
                     <div class="mb-3">
+
                         <label for="kategori" class="form-label fw-semibold">
                             Kategori
                         </label>
 
-                        <select name="kategori" id="kategori" class="form-select">
+                        <select
+                            name="kategori"
+                            id="kategori"
+                            class="form-select"
+                        >
 
                             <option value="">
                                 -- Pilih Kategori --
@@ -73,11 +86,13 @@
                                 {{ $message }}
                             </div>
                         @enderror
+
                     </div>
 
 
                     {{-- HASHTAG --}}
                     <div class="mb-3">
+
                         <label for="tags" class="form-label fw-semibold">
                             Hashtag
                         </label>
@@ -101,6 +116,7 @@
                                 {{ $message }}
                             </div>
                         @enderror
+
                     </div>
 
 
@@ -120,10 +136,36 @@
                         >
 
                         <small class="text-muted">
-                            Format: JPG, JPEG, PNG, atau WEBP. Maksimal 2 MB.
+                            Format: JPG, JPEG, PNG, atau WEBP.
+                            Maksimal 2 MB.
                         </small>
 
                         @error('gambar')
+                            <div class="text-danger small">
+                                {{ $message }}
+                            </div>
+                        @enderror
+
+                    </div>
+
+
+                    {{-- PENULIS --}}
+                    <div class="mb-3">
+
+                        <label for="penulis" class="form-label fw-semibold">
+                            Penulis
+                        </label>
+
+                        <input
+                            type="text"
+                            name="penulis"
+                            id="penulis"
+                            class="form-control"
+                            value="{{ old('penulis') }}"
+                            placeholder="Nama penulis..."
+                        >
+
+                        @error('penulis')
                             <div class="text-danger small">
                                 {{ $message }}
                             </div>
@@ -159,7 +201,10 @@
                     {{-- TOMBOL --}}
                     <div class="d-flex gap-2 pt-2 border-top mt-3">
 
-                        <button type="submit" class="btn btn-primary">
+                        <button
+                            type="submit"
+                            class="btn btn-primary"
+                        >
                             <i class="bi bi-save"></i>
                             Simpan
                         </button>
